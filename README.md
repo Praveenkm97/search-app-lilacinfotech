@@ -1,2 +1,2 @@
 php artisan migrate:refresh --seed
-http://localhost:8000
+</br>http://localhost:8000
