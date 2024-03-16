@@ -1,0 +1,46 @@
+body {
+    background-color: #D4D4D4
+}
+
+.block {
+    margin: 10px auto !important;
+    width: 80%;
+    height: 100px;
+    padding: 15px;
+    color: #ffffff;
+}
+
+label {
+    color: #000000;
+}
+
+.item {
+    /* float:left; */
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border: 2px dashed red;
+}
+
+.box {
+    margin: 10px auto !important;
+    flex: 1 0 49%;
+    /* Each box to be just under 50% of the width */
+    min-width: 150px;
+    /* The "break-point" for stacking boxes vertically */
+    min-height: 112px;
+    border: 5px solid #ffffff;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #000000;
+    padding: 1px auto;
+}
+
+.form-group {
+    padding: 0px 10px;
+}
+
+.box p {
+    margin: 10px 10px 10px 10px;
+}
